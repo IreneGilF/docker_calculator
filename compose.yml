@@ -1,0 +1,6 @@
+services:
+  php:
+    image: irgifu/calculadora-tema-5
+    container_name: priceless_dijkstra
+    ports:
+      - "8081:80"
